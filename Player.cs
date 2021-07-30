@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float speed;
 
-    //경계에 닿 은지 체크
+    //Boundary Check
     bool isTouchTop;
     bool isTocuhBottom;
     bool isTouchRight;
